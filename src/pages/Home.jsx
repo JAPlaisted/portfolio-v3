@@ -1,12 +1,11 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
 import NavBar from '../components/NavBar';
-
+import Hero from '../components/Hero';
 function Home(props) {
     return (
         <div>
             <NavBar />
-            Home
+            <Hero />
         </div>
     );
 }
