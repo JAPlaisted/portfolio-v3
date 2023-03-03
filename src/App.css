@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--color-primary);
+  overflow-x: hidden;
+}
+
 .section-dark {
   background-color: var(--color-dark-bkgrnd);
   color: var(--color-primary);
@@ -18,10 +23,30 @@
 
 @media only screen and (min-width: 600px) {
   .section-dark {
-    height: 40vh;
+    height: 50vh;
     margin-top: 0;
   }
   .section-dark > h2 {
+    margin-bottom: 0;
+  }
+}
+
+.section-light {
+  color: var(--color-body-dark);
+  margin-top: 4em;
+}
+
+.section-light > h2 {
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .section-light {
+    height: 50vh;
+    margin-top: 0;
+  }
+  .section-light > h2 {
     margin-bottom: 0;
   }
 }
@@ -31,10 +56,6 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--color-primary);
 }
 
 h2, h3, h4 {
@@ -152,25 +173,25 @@ a:hover {
 
 /* Projects */
 
-.projects {
+.projects, .skills {
   display: flex;
   flex-direction: column;
 }
 
 @media only screen and (min-width: 600px) {
-  .projects {
+  .projects, .skills {
     flex-direction: row;
-    height: 40vh;
+    height: 50vh;
   }
 }
 
-.project {
+.project, .skill {
   max-width: 30rem;
   display: flex;
   flex-direction: row;
   margin-bottom: 10%;
 }
 
-.project-icon {
+.project-icon, .skill-icon {
   margin-right: 2rem;
 }

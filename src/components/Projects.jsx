@@ -66,7 +66,7 @@ function Projects(props) {
                             <SpatialTrackingIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Python Tracking</h4>
-                                <p>This is where I experiment with Python object tracking scripts for making the web more interactive in the future.</p>
+                                <p>This is my experimental space for working with Python object tracking scripts. I aim to use these scripts to develop more interactive web applications in the future.</p>
                             </div>
                         </div>
                     </a>
