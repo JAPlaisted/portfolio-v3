@@ -5,6 +5,27 @@
   box-sizing: border-box;
 }
 
+.section-dark {
+  background-color: var(--color-dark-bkgrnd);
+  color: var(--color-primary);
+  margin-top: 4em;
+}
+
+.section-dark > h2 {
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .section-dark {
+    height: 40vh;
+    margin-top: 0;
+  }
+  .section-dark > h2 {
+    margin-bottom: 0;
+  }
+}
+
 /* Typography */
 
 html {
@@ -16,20 +37,23 @@ body {
   background-color: var(--color-primary);
 }
 
-h2 {
+h2, h3, h4 {
   font-family: 'IBM Plex Mono', monospace;
-  color: var(--color-dark-bkgrnd);
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'Inconsolata', monospace;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-body);
+  color: var(--color-primary);
   font-family: 'IBM Plex Mono', monospace;
+}
+
+a:hover {
+  color: var(--color-body-lighter);
 }
 
 /* Color Palette */
@@ -39,6 +63,7 @@ a {
   --color-dark-bkgrnd: #625855;
   --color-light-bkgrnd: #e9e7dd;
   --color-body: #dedede;
+  --color-body-lighter: #ffffff;
   --color-body-dark:#4c4a42;
   --border-radius: 30px;
 }
@@ -76,6 +101,7 @@ a {
 .hero-desc > h2 {
   margin-bottom: 4rem;
   font-size: 3rem;
+  color: var(--color-dark-bkgrnd);
 }
 
 .hero-desc > p {
@@ -122,4 +148,29 @@ a {
   .hero-desc {
     max-width: 20vw;
   }
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .projects {
+    flex-direction: row;
+    height: 40vh;
+  }
+}
+
+.project {
+  max-width: 30rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+.project-icon {
+  margin-right: 2rem;
 }
