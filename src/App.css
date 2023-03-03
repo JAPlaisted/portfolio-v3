@@ -66,7 +66,7 @@ a {
 
 .logo-hero {
   height: 500px;
-  max-width: 80vw;
+  margin-left: 2rem;
 }
 
 .hero-desc {
@@ -75,14 +75,22 @@ a {
 
 .hero-desc > h2 {
   margin-bottom: 4rem;
+  font-size: 3rem;
 }
 
 .hero-desc > p {
   margin-bottom: 2rem;
+  font-size: 1.4rem;
 }
 
 .hero-links {
   margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+.hero-links > a:hover {
+  background-color: var(--color-dark-bkgrnd);
+  color: var(--color-primary);
 }
 
 .hero-links > a {
@@ -103,6 +111,10 @@ a {
 }
 
 @media only screen and (min-width: 600px) {
+  .logo-hero {
+    margin-left: 0;
+  }
+
   .hero-content {
   flex-direction: row;
 }
