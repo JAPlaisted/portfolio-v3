@@ -13,7 +13,7 @@ function Projects(props) {
             <div className='projects d-flex align-items-center justify-content-evenly'>
                 <div className='project-row align-items-center justify-content-center'>
                     <a href="https://fastidious-sundae-5a2784.netlify.app/" target="/">
-                        <div className='project'>
+                        <div className='project' data-aos="fade-right">
                             <PersonAddAlt1Icon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Sommet Technologies</h4>
@@ -22,7 +22,7 @@ function Projects(props) {
                         </div>
                     </a>
                     <a href="https://fastidious-sundae-5a2784.netlify.app/blog/5b21ca3eeb7f6fbccd471815" target="/">
-                        <div className='project'>
+                        <div className='project' data-aos="fade-right">
                             <ExtensionIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Bionic Font Plugin</h4>
@@ -33,7 +33,7 @@ function Projects(props) {
                 </div>
                 <div className='project-row align-items-center justify-content-center'>
                     <a href="https://superchat-7b816.web.app/" target="/">
-                        <div className='project'>
+                        <div className='project' data-aos="fade-right">
                             <ChatIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Init Chat</h4>
@@ -42,7 +42,7 @@ function Projects(props) {
                         </div>
                     </a>
                     <a href="https://famous-brioche-becb52.netlify.app/" target="/">
-                        <div className='project'>
+                        <div className='project' data-aos="fade-right">
                             <CloudIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Weather Tile</h4>
@@ -53,7 +53,7 @@ function Projects(props) {
                 </div>
                 <div className='project-row align-items-center justify-content-center'>
                     <a href="https://calm-figolla-4ac6c5.netlify.app/" target="/">
-                        <div className='project'>
+                        <div className='project' data-aos="fade-right">
                             <DataObjectIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Rainy Data</h4>
@@ -62,7 +62,7 @@ function Projects(props) {
                         </div>
                     </a>
                     <a href="/py-tracking-demo" target="/">
-                        <div className='project'>
+                        <div className='project' data-aos="fade-right">
                             <SpatialTrackingIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>
                                 <h4>Python Tracking</h4>

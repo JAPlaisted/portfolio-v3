@@ -23,6 +23,16 @@ body {
 
 @media only screen and (min-width: 600px) {
   .section-dark {
+    height: 100vh;
+    margin-top: 0;
+  }
+  .section-dark > h2 {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .section-dark {
     height: 50vh;
     margin-top: 0;
   }
@@ -42,6 +52,16 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+  .section-light {
+    height: 100vh;
+    margin-top: 0;
+  }
+  .section-light > h2 {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
   .section-light {
     height: 50vh;
     margin-top: 0;
@@ -181,6 +201,13 @@ a:hover {
 @media only screen and (min-width: 600px) {
   .projects, .skills {
     flex-direction: row;
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .projects, .skills {
+    flex-direction: row;
     height: 50vh;
   }
 }
@@ -189,7 +216,7 @@ a:hover {
   max-width: 30rem;
   display: flex;
   flex-direction: row;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
 }
 
 .project-icon, .skill-icon {

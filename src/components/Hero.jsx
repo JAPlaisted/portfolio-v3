@@ -9,7 +9,7 @@ function Hero(props) {
     return (
         <div className='hero-content'>
             <img src="https://cdn.midjourney.com/efb6a332-89b2-4c32-b0db-ef08c62db05b/grid_0.png" alt="developer logo" className='logo-hero align-items-center ' />
-            <div className='hero-desc align-items-center'>
+            <div className='hero-desc align-items-center' data-aos="zoom-in">
                 <h2>Jonathan Plaisted</h2>
                 <p>Hi, I'm Jonathan Plaisted, a highly motivated and passionate web developer with a knack for learning new technologies quickly. My expertise lies in JavaScript and React development, and I take pride in every line of code I write. I'm excited to take on new challenges and make a positive impact in the world of technology. Let's work together to create amazing web experiences!</p>
                 <div className='icon-container'>

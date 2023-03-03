@@ -12,14 +12,14 @@ function Skills(props) {
             <h2>Skills</h2>
             <div className='projects d-flex align-items-center justify-content-evenly'>
                 <div className='skill-row align-items-center justify-content-center'>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-left">
                         <DeveloperModeIcon className='skill-icon' style={{fontSize: "xx-large"}}/>
                         <div>
                             <h4>Front End Development</h4>
                             <p>As a specialized front-end developer with expertise in React, I thrive on solving complex problems and designing intuitive user interfaces.</p>
                         </div>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-left">
                         <RemoveRedEyeIcon className='skill-icon' style={{fontSize: "xx-large"}}/>
                         <div>
                             <h4>Python</h4>
@@ -28,14 +28,14 @@ function Skills(props) {
                     </div>
                 </div>
                 <div className='skill-row align-items-center justify-content-center'>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-left">
                         <ScreenshotMonitorIcon className='skill-icon' style={{fontSize: "xx-large"}}/>
                         <div>
                             <h4>Responsive Design</h4>
                             <p>I specialize in designing and developing responsive web applications that seamlessly adapt to all screen sizes, including desktop and mobile devices.</p>
                         </div>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-left">
                         <EqualizerIcon className='skill-icon' style={{fontSize: "xx-large"}}/>
                         <div>
                             <h4>Data Visualization</h4>
@@ -44,14 +44,14 @@ function Skills(props) {
                     </div>
                 </div>
                 <div className='skill-row align-items-center justify-content-center'>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-left">
                         <CssIcon className='skill-icon' style={{fontSize: "xx-large"}}/>
                         <div>
                             <h4>CSS</h4>
                             <p>I firmly believe that custom CSS, when paired with a CSS library, offers a powerful toolset for efficient web development while maintaining an element of uniqueness in the design.</p>
                         </div>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-left">
                         <SmartToyIcon className='skill-icon' style={{fontSize: "xx-large"}}/>
                         <div>
                             <h4>Prompt Engineering</h4>
