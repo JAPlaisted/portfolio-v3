@@ -222,3 +222,30 @@ a:hover {
 .project-icon, .skill-icon {
   margin-right: 2rem;
 }
+
+/* Footer */ 
+
+.top-link {
+  font-size: 2rem;
+  color: var(--color-dark-bkgrnd);
+}
+
+/* PyTracking */
+
+video {
+  border-radius: 15px;
+}
+
+.py-title, .py-p  {
+  margin-top: 4rem;
+}
+
+
+.github {
+  margin-top: 1em;
+  color: var(--color-body-dark);
+}
+
+.github:hover {
+  color: var(--color-body-dark);
+}

@@ -61,7 +61,7 @@ function Projects(props) {
                             </div>
                         </div>
                     </a>
-                    <a href="/py-tracking-demo" target="/">
+                    <a href="/py-tracking-demo">
                         <div className='project' data-aos="fade-right">
                             <SpatialTrackingIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                             <div>

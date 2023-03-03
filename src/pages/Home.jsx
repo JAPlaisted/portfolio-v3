@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 
 function Home(props) {
     return (
@@ -11,6 +12,7 @@ function Home(props) {
             <Hero />
             <Projects />
             <Skills />
+            <Footer />
         </div>
     );
 }
