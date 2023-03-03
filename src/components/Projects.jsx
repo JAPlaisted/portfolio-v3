@@ -18,7 +18,7 @@ function Projects(props) {
                             <div>
                                 <PersonAddAlt1Icon className='project-icon' style={{fontSize: "xx-large"}}/>
                                 <a href="https://github.com/JAPlaisted/sommet">
-                                        <GitHubIcon className='project-icon' style={{fontSize: "xx-large"}} />
+                                        <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
                             </div>
                             <div>
@@ -32,7 +32,7 @@ function Projects(props) {
                             <div>
                                 <ExtensionIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                                 <a href="/">
-                                        <GitHubIcon className='project-icon' style={{fontSize: "xx-large"}} />
+                                        <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
                             </div>
                             <div>
@@ -48,7 +48,7 @@ function Projects(props) {
                             <div>
                                 <ChatIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                                 <a href="https://github.com/JAPlaisted/init-chat">
-                                    <GitHubIcon className='project-icon' style={{fontSize: "xx-large"}} />
+                                    <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                 </a>
                             </div>
                             <div>
@@ -62,7 +62,7 @@ function Projects(props) {
                             <div>
                                 <CloudIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                                 <a href="https://github.com/JAPlaisted/weather-tile">
-                                            <GitHubIcon className='project-icon' style={{fontSize: "xx-large"}} />
+                                            <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
                             </div>
                             <div>
@@ -78,7 +78,7 @@ function Projects(props) {
                             <div>
                                 <DataObjectIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                                 <a href="https://github.com/JAPlaisted/rainy-data">
-                                            <GitHubIcon className='project-icon' style={{fontSize: "xx-large"}} />
+                                            <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
                             </div>
                             <div>
@@ -92,7 +92,7 @@ function Projects(props) {
                             <div>
                                 <SpatialTrackingIcon className='project-icon' style={{fontSize: "xx-large"}}/>
                                 <a href="https://github.com/JAPlaisted/facial-recognition">
-                                            <GitHubIcon className='project-icon' style={{fontSize: "xx-large"}} />
+                                            <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
                             </div>
                             <div>
