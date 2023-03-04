@@ -31,7 +31,7 @@ function Projects(props) {
                         <div className='project' data-aos="fade-right">
                             <div>
                                 <ExtensionIcon className='project-icon' style={{fontSize: "xx-large"}}/>
-                                <a href="/">
+                                <a href="https://github.com/JAPlaisted/bionic-font-plugin">
                                         <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
                             </div>
