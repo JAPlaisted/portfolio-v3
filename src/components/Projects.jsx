@@ -27,7 +27,7 @@ function Projects(props) {
                             </div>
                         </div>
                     </a>
-                    <a href="https://fastidious-sundae-5a2784.netlify.app/blog/5b21ca3eeb7f6fbccd471815/#products" target="/">
+                    <a href="https://fastidious-sundae-5a2784.netlify.app/#products" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
                                 <ExtensionIcon className='project-icon' style={{fontSize: "xx-large"}}/>
