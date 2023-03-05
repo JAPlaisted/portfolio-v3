@@ -1,7 +1,6 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import NavBar from '../components/NavBar';
-import MapIcon from '@mui/icons-material/Map';
 
 
 function MoreProjects(props) {
@@ -15,6 +14,7 @@ function MoreProjects(props) {
                         <a href="https://fastidious-sundae-5a2784.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/7a93ed44-13d1-4799-a47b-a07ae228dc2f/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/sommet">
                                             <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
@@ -28,6 +28,7 @@ function MoreProjects(props) {
                         <a href="https://fastidious-sundae-5a2784.netlify.app/#products" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/e3598eff-c7f1-4d9e-8908-a7fd1cffa010/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/bionic-font-plugin">
                                             <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
@@ -43,6 +44,7 @@ function MoreProjects(props) {
                         <a href="https://superchat-7b816.web.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/8165c4c2-e967-439b-ba55-35b85077a2e3/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/init-chat">
                                         <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
@@ -56,6 +58,7 @@ function MoreProjects(props) {
                         <a href="https://famous-brioche-becb52.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/e2bacdf6-7f7d-4e66-8bcc-f608429570fe/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/weather-tile">
                                                 <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                             </a>
@@ -71,6 +74,7 @@ function MoreProjects(props) {
                         <a href="https://calm-figolla-4ac6c5.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/70f9af2d-ff77-4662-a53e-ec7adc4ed6d6/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/rainy-data">
                                                 <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                             </a>
@@ -84,6 +88,7 @@ function MoreProjects(props) {
                         <a href="/py-tracking-demo">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/7e2718c9-54bd-40e5-996f-221dc1e47ef0/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/facial-recognition">
                                                 <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                             </a>
@@ -101,6 +106,7 @@ function MoreProjects(props) {
                         <a href="https://cosmic-sunburst-b998ed.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/e0bc8e61-50ef-4ff5-8602-d5e8f750c114/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/find-jon">
                                             <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
@@ -115,7 +121,7 @@ function MoreProjects(props) {
                         <a href="/ars-demo" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
-                                <MapIcon className='project-icon' style={{fontSize: "xx-large"}}/>
+                                <img src="https://cdn.midjourney.com/d17dfcab-f614-47ad-8f1b-f7f982bd6961/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 </div>
                                 <div>
                                     <h4>Advantage Route Systems</h4>
@@ -128,6 +134,7 @@ function MoreProjects(props) {
                         <a href="https://magnificent-torte-aec714.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/75f60fbe-91ea-4ab8-85f4-612191a83c20/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/react-pizza">
                                         <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
@@ -141,6 +148,7 @@ function MoreProjects(props) {
                         <a href="https://stately-tarsier-fd5ad6.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/365d00d3-0954-4636-a8d2-c734c9e4bec8/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/bourne-music">
                                                 <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                             </a>
@@ -156,6 +164,7 @@ function MoreProjects(props) {
                         <a href="https://admirable-lebkuchen-db46f7.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/aae4b164-a7df-411d-a733-87a8b2442614/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/ZoaEnergyLandingPage">
                                                 <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                             </a>
@@ -169,6 +178,7 @@ function MoreProjects(props) {
                         <a href="https://elegant-austin-e61aa0.netlify.app/" target="/">
                             <div className='project' data-aos="fade-right">
                                 <div>
+                                <img src="https://cdn.midjourney.com/2350da9c-5128-47ca-822b-d3f41fb68725/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                     <a href="https://github.com/JAPlaisted/RPSLP">
                                                 <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                             </a>
