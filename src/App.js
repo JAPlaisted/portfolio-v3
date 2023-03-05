@@ -6,6 +6,7 @@ import ArsDemo from "./pages/ArsDemo";
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MoreProjects from "./pages/MoreProjects";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/more-projects" element={<MoreProjects />} />
           <Route path="/py-tracking-demo" element={<PyTracking />} />
           <Route path="/ars-demo" element={<ArsDemo />} />
         </Routes>

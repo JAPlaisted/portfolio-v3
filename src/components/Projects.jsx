@@ -6,11 +6,14 @@ import CloudIcon from '@mui/icons-material/Cloud';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 import SpatialTrackingIcon from '@mui/icons-material/SpatialTracking';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { HashLink } from 'react-router-hash-link';
+
 
 function Projects(props) {
     return (
         <div id='projects' className='section-dark'>
             <h2>Projects</h2>
+            <HashLink className="nav-link" to="/more-projects">View All</HashLink>
             <div className='projects d-flex align-items-center justify-content-evenly'>
                 <div className='project-row align-items-center justify-content-center'>
                     <a href="https://fastidious-sundae-5a2784.netlify.app/" target="/">
