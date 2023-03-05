@@ -1,10 +1,4 @@
 import React from 'react';
-import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
-import ExtensionIcon from '@mui/icons-material/Extension';
-import ChatIcon from '@mui/icons-material/Chat';
-import CloudIcon from '@mui/icons-material/Cloud';
-import DataObjectIcon from '@mui/icons-material/DataObject';
-import SpatialTrackingIcon from '@mui/icons-material/SpatialTracking';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { HashLink } from 'react-router-hash-link';
 
@@ -19,7 +13,7 @@ function Projects(props) {
                     <a href="https://fastidious-sundae-5a2784.netlify.app/" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
-                                <PersonAddAlt1Icon className='project-icon' style={{fontSize: "xx-large"}}/>
+                            <img src="https://cdn.midjourney.com/7a93ed44-13d1-4799-a47b-a07ae228dc2f/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/sommet">
                                         <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
@@ -33,7 +27,7 @@ function Projects(props) {
                     <a href="https://fastidious-sundae-5a2784.netlify.app/#products" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
-                                <ExtensionIcon className='project-icon' style={{fontSize: "xx-large"}}/>
+                            <img src="https://cdn.midjourney.com/e3598eff-c7f1-4d9e-8908-a7fd1cffa010/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/bionic-font-plugin">
                                         <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                     </a>
@@ -49,7 +43,7 @@ function Projects(props) {
                     <a href="https://superchat-7b816.web.app/" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
-                                <ChatIcon className='project-icon' style={{fontSize: "xx-large"}}/>
+                            <img src="https://cdn.midjourney.com/8165c4c2-e967-439b-ba55-35b85077a2e3/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/init-chat">
                                     <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                 </a>
@@ -63,7 +57,7 @@ function Projects(props) {
                     <a href="https://famous-brioche-becb52.netlify.app/" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
-                                <CloudIcon className='project-icon' style={{fontSize: "xx-large"}}/>
+                            <img src="https://cdn.midjourney.com/e2bacdf6-7f7d-4e66-8bcc-f608429570fe/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/weather-tile">
                                             <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
@@ -79,7 +73,7 @@ function Projects(props) {
                     <a href="https://calm-figolla-4ac6c5.netlify.app/" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
-                                <DataObjectIcon className='project-icon' style={{fontSize: "xx-large"}}/>
+                            <img src="https://cdn.midjourney.com/70f9af2d-ff77-4662-a53e-ec7adc4ed6d6/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/rainy-data">
                                             <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>
@@ -93,7 +87,7 @@ function Projects(props) {
                     <a href="/py-tracking-demo">
                         <div className='project' data-aos="fade-right">
                             <div>
-                                <SpatialTrackingIcon className='project-icon' style={{fontSize: "xx-large"}}/>
+                            <img src="https://cdn.midjourney.com/7e2718c9-54bd-40e5-996f-221dc1e47ef0/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/facial-recognition">
                                             <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                         </a>

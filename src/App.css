@@ -193,6 +193,13 @@ a:hover {
 
 /* Projects */
 
+.logo-project {
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid var(--color-dark-bkgrnd);
+  margin-right: 1em;
+}
+
 #more-projects {
   height: 100%;
 }
@@ -239,6 +246,10 @@ a:hover {
 .project-icon, .skill-icon {
   margin-right: 2rem;
   margin-bottom: 2rem;
+}
+
+.project-icon {
+  float: right;
 }
 
 /* Footer */ 
