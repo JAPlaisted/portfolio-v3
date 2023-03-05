@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Portfolio V3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio V3 is my personal web portfolio where I showcase my work. 
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To install Portfolio V3, follow these steps:
 
-### `npm start`
+Clone the repository to your local machine.
+Install the required dependencies using npm install.
+Start the development server using npm start.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View the live site here:
 
-### `npm test`
+https://jonathanplaisted.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+OR
 
-### `npm run build`
+To use Portfolio V3, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your web browser and navigate to http://localhost:3000.
+Create a new account or log in to an existing account.
+Add your daily tasks and goals, and track your progress.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you'd like to contribute to Portfolio V3, please follow these guidelines:
 
-### `npm run eject`
+Fork the repository and create a new branch for your changes.
+Make your changes and test them thoroughly.
+Submit a pull request to the main repository and describe your changes in detail.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screen Shots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Capture](https://user-images.githubusercontent.com/55415399/222937555-9741671e-6088-4afd-a915-17c9e91b4017.JPG)
+![Capture](https://user-images.githubusercontent.com/55415399/222937573-610553a9-fb41-447b-93fb-5a326ab91594.JPG)
+![Capture](https://user-images.githubusercontent.com/55415399/222937594-a1118e7d-0512-47bf-877c-403259cfe90b.JPG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+Portfolio V3 was created by Jonathan Plaisted.
