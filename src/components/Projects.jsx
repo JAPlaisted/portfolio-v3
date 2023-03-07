@@ -24,7 +24,7 @@ function Projects(props) {
                             </div>
                         </div>
                     </a>
-                    <a href="https://fastidious-sundae-5a2784.netlify.app/#products" target="/">
+                    <a href="https://github.com/JAPlaisted/bionic-font-plugin" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
                             <img src="https://cdn.midjourney.com/e3598eff-c7f1-4d9e-8908-a7fd1cffa010/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
