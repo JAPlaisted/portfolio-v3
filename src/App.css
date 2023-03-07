@@ -13,7 +13,6 @@ body {
 .section-dark {
   background-color: var(--color-dark-bkgrnd);
   color: var(--color-primary);
-  margin-top: 4em;
 }
 
 .section-dark > h2 {
@@ -128,6 +127,7 @@ a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 4em;
 }
 
 .logo-hero {
