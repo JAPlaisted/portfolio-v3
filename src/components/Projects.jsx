@@ -43,7 +43,7 @@ function Projects(props) {
                     <a href="https://superchat-7b816.web.app/" target="/">
                         <div className='project' data-aos="fade-right">
                             <div>
-                            <img src="https://cdn.midjourney.com/8165c4c2-e967-439b-ba55-35b85077a2e3/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
+                            <img src="https://cdn.midjourney.com/7a93ed44-13d1-4799-a47b-a07ae228dc2f/grid_0.png" alt="developer logo" className='logo-project align-items-center ' />
                                 <a href="https://github.com/JAPlaisted/init-chat">
                                     <GitHubIcon className='project-icon' style={{fontSize: "x-large"}} />
                                 </a>
