@@ -254,6 +254,15 @@ a:hover {
 
 /* Footer */ 
 
+.footer {
+  flex: 1;
+  display: flex;              
+  flex-wrap: wrap;         
+  justify-content: center; 
+}
+
+
+
 .top-link {
   font-size: 2rem;
   color: var(--color-dark-bkgrnd);
@@ -266,19 +275,20 @@ video {
 }
 
 .py-title, .py-p  {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
-
-
 .github {
   margin-top: 1em;
   color: var(--color-body-dark);
+  margin-top: 2rem;
 }
 
 .github:hover {
   color: var(--color-body-dark);
 }
-
+.full {
+  height: 90vh;
+}
 /* ARS Demo */
 
 .arsLogo {

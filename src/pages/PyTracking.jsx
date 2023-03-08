@@ -8,7 +8,7 @@ function PyTracking(props) {
     return (
         <div>
             <NavBar />
-            <div className='d-flex flex-column align-items-center container'>
+            <div className='d-flex flex-column align-items-center container full'>
                 <video width="320" height="240" controls autoplay loop muted>
                     <source src={video}  type="video/mp4"></source>
                 </video>
