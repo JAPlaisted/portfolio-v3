@@ -289,6 +289,7 @@ video {
 .full {
   height: 90vh;
 }
+
 /* ARS Demo */
 
 .arsLogo {
@@ -337,4 +338,14 @@ video {
   .ars-media > img {
       margin-right: 2em;
   }
+}
+
+/* Bucket List */
+
+.bucket-list-top {
+  background-image: url("https://cdn.midjourney.com/7de74e75-ece2-4442-8b98-dc6cb135d064/0_1.png");
+  height: 80vh;
+  background-position: top;
+  background-size: cover;
+  background-repeat: none;
 }

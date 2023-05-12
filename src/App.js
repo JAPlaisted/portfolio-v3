@@ -7,6 +7,7 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import MoreProjects from "./pages/MoreProjects";
+import BucketList from "./pages/BucketList";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/more-projects" element={<MoreProjects />} />
           <Route path="/py-tracking-demo" element={<PyTracking />} />
           <Route path="/ars-demo" element={<ArsDemo />} />
+          <Route path="/bucket-list" element={<BucketList />} />
         </Routes>
       </BrowserRouter>
     </div>
